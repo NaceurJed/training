@@ -1,0 +1,101 @@
+.modal-footer {
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url("../image/tapis.jpg");
+    background-size: cover;
+}
+
+article{
+    background-image:  url("../image/librairie.jpg");
+    background-size: cover;
+}
+
+#texte{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-family: Fantasy;
+}
+#commencez{
+    position: absolute;
+    top: 550px;
+    left: 230px;
+    width: 300px;
+    font-family: Cursive;
+}
+
+#corps{
+    /*width: 424px;*/
+}
+
+#dorsaux:hover{
+    border: bold;
+}
+
+#creerExercice{
+    
+    height: 570px;
+    background-image: url("../image/creerExercice.jpg");
+    background-size: cover;
+}
+
+.pec: hover{
+    background-color: black;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    background-color: #343a40;
+    color: white;
+    border: none;
+}
+
+td{
+    width: 70px;
+    margin: 0;
+    padding: 2px;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin:0;
+}
+
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button { 
+    -o-appearance: none;
+    margin:0
+}
+
+#altere{
+    width: 45px;
+    padding-bottom: 10px;
+}
+
+#ligne{
+    color: red;
+    width: 50%;
+    height: 3px;
+    text-align: center;
+    margin: auto;
+}
+
+#detailEvent{
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 10px;
+}
